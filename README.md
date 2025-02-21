@@ -1,4 +1,6 @@
 # Effect-of-Macroeconomic-indicators-on-Financial-Institution
+![BANKS](https://github.com/user-attachments/assets/9e02975e-448e-446c-8a9a-66abe006e412)
+
 
 # Banks are imperative Cog of the Economy.
 Macroeconomic indicators like GDP growth, inflation, interest rates, and unemployment significantly impact financial institutions by influencing their lending practices, profitability, credit risk, and overall stability. 
