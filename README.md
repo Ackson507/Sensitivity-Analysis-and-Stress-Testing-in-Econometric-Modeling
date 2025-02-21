@@ -16,13 +16,13 @@ Identify past macroeconomic crises in Zambia (e.g., high inflation periods, curr
 Assess how these crises affected banking stability indicators (NPLs, CAR, liquidity ratios, etc.).
 
 🔹 Hypothetical Scenario Analysis:
-We will create 2 stress test scenarios:
+We will create 3 stress test scenarios:
 
-1️⃣ Mild Scenario: Inflation increases by 2%, interest rates rise by 1%.
+1️⃣ Mild Scenario: Inflation increases by 2%, interest rates rise by 2%.
 
-2️⃣ Moderate Scenario: Inflation spikes by 5%, exchange rate depreciates by 10%.
+2️⃣ Moderate Scenario: Exchange rate depreciates by 10%.
 
-3️⃣ Severe Scenario: A financial crisis leads to a 10% inflation surge, 15% currency depreciation, and a 5% interest rate hike.
+3️⃣ Severe Scenario: A financial crisis leads to a 15% inflation surge, 15% currency depreciation, and a 5% interest rate hike.
 
 📊 Steps:
 
