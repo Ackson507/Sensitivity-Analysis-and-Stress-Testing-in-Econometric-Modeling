@@ -30,3 +30,5 @@ We will create 3 stress test scenarios:
 - Model the impact of shocks on loan defaults, bank liquidity, and profitability.
 - Interpret results to assess which macro factors pose the greatest risk to financial stability.
 
+REFERENCES
+
