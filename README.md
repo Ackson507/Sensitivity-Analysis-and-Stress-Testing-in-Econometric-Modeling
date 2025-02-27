@@ -1,36 +1,42 @@
-# Effect-of-Macroeconomic-indicators-on-Financial-Institution
-![BANKS](https://github.com/user-attachments/assets/9e02975e-448e-446c-8a9a-66abe006e412)
+# Sensitivity Analysis
+![FeatureImage8](https://github.com/user-attachments/assets/f4038035-361b-471b-874c-e354e2496cbd)
 
 
-# Banks are imperative Cog of the Economy.
-Macroeconomic indicators like GDP growth, inflation, interest rates, and unemployment significantly impact financial institutions by influencing their lending practices, profitability, credit risk, and overall stability. 
+# Application of Sensitivity Analysis
+Sensitivity Analysis (SA) is a key tool in both econometric modeling and machine learning (ML), used to assess how changes in inputs affect outputs. It helps quantify risk and uncertainty, making models more robust and interpretable. Some of the application include;
 
-📌 Introduction
-This project expands on the Multivariate Time-Series Analysis of Macroeconomic Data by conducting a detailed stability assessment of financial institutions in Zambia. We will analyze how key macroeconomic indicators such as Inflation, Interest Rates, Exchange Rates, and GDP Growth—affect the banking sector, focusing on scenario analysis. 
+🔹 Regression Models: Assessing the impact of different variables on GDP, inflation, or employment.
 
-By integrating these techniques, we will assess how shocks in macroeconomic variables impact banking sector resilience, including capital adequacy, loan default rates, and liquidity risk. Because this is an expanssion to (Multivariate Time-Series Analysis of Macroeconomic Data), we will skipp first three steps to avoid repetiosion of process and move direct to step 4.
+🔹 Policy Analysis: Evaluating how fiscal or monetary policy changes affect economic outcomes.
 
-# 4️⃣ Stress Testing and Scenario Analysis
-To understand the resilience of financial institutions, we will conduct:
+🔹 Forecasting: Testing the reliability of GDP or demand forecasts under different assumptions.
 
-🔹 Historical Stress Testing:
-Identify past macroeconomic crises in Zambia (e.g., high inflation periods, currency devaluation).
-Assess how these crises affected banking stability indicators (NPLs, CAR, liquidity ratios, etc.).
+### Stress Testing & Scenario Analysis in a VAR Model: Assessing Shocks & Uncertainties
+A Vector Autoregression (VAR) model is commonly used in econometrics to analyze how shocks or uncertainties impact interdependent economic indicators. Scenario analysis and stress testing help us understand how the system reacts under different condition. A VAR model treats multiple time series as endogenous and models each variable as a function of its own lags and the lags of all other variables. To carry out this project we will do it in multiple steps listed below.
 
-🔹 Hypothetical Scenario Analysis:
-We will create 3 stress test scenarios:
+1️⃣Estimating the VAR Model.
 
-1️⃣ Mild Scenario: Inflation increases by 2%, interest rates rise by 2%.
+We will collect and clean sufficient macroeconomic data (e.g., inflation, interest rates, exchange rate. e.t.c ), use the ADF test to check for unit roots, and difference the data if necessary). Then we
+determine the optimal lag length using AIC, BIC, or HQIC criteria and lastly estimate the VAR model using Ordinary Least Squares (OLS) regression using Eview 14 econometric software
 
-2️⃣ Moderate Scenario: Exchange rate depreciates by 10%.
+2️⃣Identifying Structural Shocks and Risks.
 
-3️⃣ Severe Scenario: A financial crisis leads to a 15% inflation surge, 15% currency depreciation, and a 5% interest rate hike.
+Introduce Impulse Response Functions (IRFs) to analyze how each variable reacts to a shock in another variable
 
-📊 Steps:
+3️⃣Defining Economic Stress Scenarios.
 
-- Simulate macroeconomic shocks based on historical crisis patterns.
-- Model the impact of shocks on loan defaults, bank liquidity, and profitability.
-- Interpret results to assess which macro factors pose the greatest risk to financial stability.
+We will construct hypothetical scenarios where economic conditions deviate from the norm by Simulating the impact of each shock by manipulating the error term. Examples include:
+- Interest Rate Hike: A sudden 2% increase in policy rates
+- A sudden 10%  kwacha depreciation against dollar
+  
+4️⃣Introducing the Shock into the Model.
+
+Compute new Impulse Response Functions (IRFs) to observe how variables react
+
+5️⃣Run the Model & Analyze the Results.
+
+Compare variance decompositions before and after the shock.
+
 
 REFERENCES
 
