@@ -91,5 +91,11 @@ After Shock: FOREX_K_USD_D shows an initial increase (peaking at 2 units) but th
 
 Inflation shows an initial increase (peaking at 6 units) but then declines sharply, becoming negative (-2 units) by the 10th period. This indicates that the interest rate hike initially caused a spike in inflation (possibly due to higher borrowing costs), but over time, it successfully reduced inflationary pressures, leading to deflationary effects.
 
-REFERENCES
+## DATA REFERENCES
+
+1: International Monetary Fund. https://www.imf.org/external/datamapper/NGDPDPC@WEO/ZMB?zoom=ZMB&highlight=ZMB
+
+2: WORLD BANK https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ZM
+
+3: Bank of Zambia https://www.boz.zm/statistics.htm
 
