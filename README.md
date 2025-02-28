@@ -79,10 +79,17 @@ Compute new Impulse Response Functions (IRFs) to observe how variables react. To
 
 Compare variance decompositions before and after the shock. We will not use this method but use visual response after 4% Interest rate is applied, below are responses after shock is applied.
 
-![aftershock](https://github.com/user-attachments/assets/e6f32d02-e7c6-4874-b097-1f407af64ee8)
+![aftershock](https://github.com/user-attachments/assets/8580be7a-6379-4958-a96a-77cfcca3b87d)
+ 
+### Key Insights:
 
-Interpretation: 
+- Foreign Exchange Reserves (FOREX_K_USD_D): The exchange rate or reserves initially strengthened but returned to baseline levels, indicating a temporary effect.
+  
+After Shock: FOREX_K_USD_D shows an initial increase (peaking at 2 units) but then fluctuates and declines, eventually stabilizing around 0. This suggests that the interest rate hike initially attracted foreign capital, strengthening the currency and increasing reserves. However, the effect is short-lived, and the exchange rate or reserves return to baseline levels over time.
 
+- Inflation (INFLATION_D): The interest rate hike successfully reduced inflation over time, but the initial spike suggests potential short-term costs.
+
+Inflation shows an initial increase (peaking at 6 units) but then declines sharply, becoming negative (-2 units) by the 10th period. This indicates that the interest rate hike initially caused a spike in inflation (possibly due to higher borrowing costs), but over time, it successfully reduced inflationary pressures, leading to deflationary effects.
 
 REFERENCES
 
