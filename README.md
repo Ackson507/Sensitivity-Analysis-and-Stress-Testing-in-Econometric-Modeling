@@ -1,4 +1,4 @@
-# SENSITIVITY ANALYSIS [SCENARIO AND STRESS TESTING OF ECONOMETRIC MODELING]
+# SENSITIVITY ANALYSIS [Scenario and Stess Testing of Econometric Models]
 
 ![uncertainty-hero-940x529](https://github.com/user-attachments/assets/34f81d91-90fc-45fb-a003-93df44701d14)
 
