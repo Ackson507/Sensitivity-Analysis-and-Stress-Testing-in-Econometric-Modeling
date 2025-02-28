@@ -1,5 +1,6 @@
 # Sensitivity Analysis
-![FeatureImage8](https://github.com/user-attachments/assets/f4038035-361b-471b-874c-e354e2496cbd)
+
+![uncertainty-hero-940x529](https://github.com/user-attachments/assets/34f81d91-90fc-45fb-a003-93df44701d14)
 
 
 # Application of Sensitivity Analysis
