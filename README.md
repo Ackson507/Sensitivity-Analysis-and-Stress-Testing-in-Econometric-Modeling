@@ -1,6 +1,6 @@
 # SENSITIVITY ANALYSIS [Scenario and Stess Testing of Econometric Models]
 
-![uncertainty-hero-940x529](https://github.com/user-attachments/assets/34f81d91-90fc-45fb-a003-93df44701d14)
+![Horizon-image-Medium-Banner-US-Landscape-1024x512](https://github.com/user-attachments/assets/663bca5c-05d2-4fe7-8e8b-0ff10a894b6b)
 
 
 # Application of Sensitivity Analysis
