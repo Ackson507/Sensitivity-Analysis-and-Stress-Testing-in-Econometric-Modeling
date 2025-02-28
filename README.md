@@ -14,7 +14,7 @@ Sensitivity Analysis (SA) is a key tool in both econometric modeling and machine
 ### Stress Testing & Scenario Analysis in a VAR Model: Assessing Shocks & Uncertainties
 A Vector Autoregression (VAR) model is commonly used in econometrics to analyze how shocks or uncertainties impact interdependent economic indicators. Scenario analysis and stress testing help us understand how the system reacts under different condition. A VAR model treats multiple time series as endogenous and models each variable as a function of its own lags and the lags of all other variables. To carry out this project we will do it in multiple steps listed below.
 
-1️⃣Estimating the VAR Model.
+## 1️⃣Estimating the VAR Model.
 
 We will collect and clean sufficient macroeconomic data (e.g., inflation, interest rates, exchange rate. e.t.c ), use the ADF test to check for unit roots, and difference the data if necessary). Then we
 determine the optimal lag length using AIC, BIC, or HQIC criteria and lastly estimate the VAR model using Ordinary Least Squares (OLS) regression using Eview 14 econometric software. This is done in one of the project done here in one of the repositories and below were the VAR Model Estimates.
@@ -22,7 +22,7 @@ determine the optimal lag length using AIC, BIC, or HQIC criteria and lastly est
 ![Screenshot 2025-02-28 085804](https://github.com/user-attachments/assets/7b20ee00-7b68-41ec-b772-a35193edf9b1)
 
 
-2️⃣Identifying Structural Shocks and Risks.
+## 2️⃣Identifying Structural Shocks and Risks.
 
 Introduce Impulse Response Functions (IRFs) to analyze how each variable reacts to a shock in another variable. Before we carry out this step we can look at key results that we need to check our model for stability. To do this we need to carry out System Stability Tests → Inverse Roots of AR Characteristic Polynomial) check for roots;
 
@@ -63,19 +63,22 @@ The response is negative, meaning that an inflation shock leads to a decline in 
 - Currency in circulation reacts sharply, showing possible liquidity constraints.
 
   
-3️⃣Defining Economic Stress Scenarios.
+## 3️⃣Defining Economic Stress Scenarios.
 
 We will construct hypothetical scenarios where economic conditions deviate from the norm by Simulating the impact of each shock by manipulating the error term. Examples include:
-- Interest Rate Hike: A sudden 2% increase in policy rates
-- A sudden 10%  kwacha depreciation against dollar
+- Interest Rate Hike: A sudden 4% increase in policy rates
   
-4️⃣Introducing the Shock into the Model.
+## 4️⃣Introducing the Shock into the Model.
 
-Compute new Impulse Response Functions (IRFs) to observe how variables react
+Compute new Impulse Response Functions (IRFs) to observe how variables react. To simulate the interest rate shock, we will use the Impulse Response Function (IRF) analysis, applying a one-standard deviation (S.D.) shock to a variable by manually increasing the Interest Rate by 4%. To carry out this we will go to Model" → "Solve Control" in Eview. Below are responses to Iterest Rate before introducing a shock.
 
-5️⃣Run the Model & Analyze the Results.
+![b4irshock](https://github.com/user-attachments/assets/7a2edc2f-a2c8-49ab-a040-eed181d964d3)
 
-Compare variance decompositions before and after the shock.
+
+
+## 5️⃣Run the Model & Analyze the Results.
+
+Compare variance decompositions before and after the shock. 
 
 
 REFERENCES
