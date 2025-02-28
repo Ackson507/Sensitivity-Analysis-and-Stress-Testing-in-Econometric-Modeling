@@ -41,6 +41,27 @@ Below is are response graphs using Monte Carlo Method.
 
 ![irf to inflation](https://github.com/user-attachments/assets/92a91b4d-595e-4450-9ecb-6741651cee0d)
 
+Interpretation:
+
+### Top Left: Response of Interest Rate (IR_D) to Inflation Shock 
+The interest rate increases in response to an inflation shock. The response is positive and persistent, peaking around the 6th period before stabilizing and this suggests that monetary policy (interest rates) reacts by tightening in response to inflation
+
+Implication:
+
+The central bank may be raising interest rates to control inflation.
+
+
+### Top Right:  Response of Foreign Exchange Reserves (FOREX_K_USD_D) to Inflation Shock.
+
+The response is negative, meaning that an inflation shock leads to a decline in forex reserves and the effect becomes stronger over time. A possible explanation is that inflation leads to depreciation of the local currency, forcing authorities to use forex reserves to stabilize the exchange rate.
+
+### Overall Insights.
+- Inflation shocks lead to higher interest rates (suggesting a monetary policy response).
+  
+- Forex reserves and central bank reserves decline, indicating pressure on external stability.
+  
+- Currency in circulation reacts sharply, showing possible liquidity constraints.
+
   
 3️⃣Defining Economic Stress Scenarios.
 
