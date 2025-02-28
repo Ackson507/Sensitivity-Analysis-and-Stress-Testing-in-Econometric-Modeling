@@ -75,10 +75,13 @@ Compute new Impulse Response Functions (IRFs) to observe how variables react. To
 ![b4irshock](https://github.com/user-attachments/assets/7a2edc2f-a2c8-49ab-a040-eed181d964d3)
 
 
-
 ## 5️⃣Run the Model & Analyze the Results.
 
-Compare variance decompositions before and after the shock. 
+Compare variance decompositions before and after the shock. We will not use this method but use visual response after 4% Interest rate is applied, below are responses after shock is applied.
+
+![aftershock](https://github.com/user-attachments/assets/e6f32d02-e7c6-4874-b097-1f407af64ee8)
+
+Interpretation: 
 
 
 REFERENCES
